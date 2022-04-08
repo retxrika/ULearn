@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngryBirds", "AngryBirds", "{2E2D2D53-D97F-4A98-884F-A6FA1B62C7F3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirds", "C:\Users\olegb\Downloads\AngryBirds.csproj\AngryBirds.csproj", "{23B9004E-6038-4127-8AD4-500EAAAF63C7}"
 EndProject
 Global
@@ -20,9 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{23B9004E-6038-4127-8AD4-500EAAAF63C7} = {2E2D2D53-D97F-4A98-884F-A6FA1B62C7F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5B09AE2-BDB0-4AAA-AD82-27A2ACAB889E}
