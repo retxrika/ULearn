@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirds", "AngryBirds\An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billiards", "Billiards\Billiards.csproj", "{5A59E50B-7340-49BC-8398-6F82C86F99D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateDeposits", "CalculateDeposits\CalculateDeposits.csproj", "{4922050F-0A40-40C6-9E31-B18C9DB54C24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5A59E50B-7340-49BC-8398-6F82C86F99D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A59E50B-7340-49BC-8398-6F82C86F99D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A59E50B-7340-49BC-8398-6F82C86F99D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4922050F-0A40-40C6-9E31-B18C9DB54C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4922050F-0A40-40C6-9E31-B18C9DB54C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4922050F-0A40-40C6-9E31-B18C9DB54C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4922050F-0A40-40C6-9E31-B18C9DB54C24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
