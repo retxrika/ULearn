@@ -39,7 +39,7 @@ namespace Rectangles
             yield return new RectanglesTestRoomTestCase(new Rectangle(-50, 0, 50, 50), new Rectangle(0, 0, 50, 50),
                 true, 0, -1);
             yield return new RectanglesTestRoomTestCase(new Rectangle(-50, 0, 60, 60), new Rectangle(0, 0, 50, 50),
-                true, 500, -1);
+                true, 500, -1); 
             yield return new RectanglesTestRoomTestCase(new Rectangle(20, 2, 40, 4), new Rectangle(10, 1, 0, 0), false,
                 0, -1);
             yield return new RectanglesTestRoomTestCase(new Rectangle(20, 2, 40, 4), new Rectangle(10, 1, 20, 5), true,
@@ -47,6 +47,8 @@ namespace Rectangles
             yield return new RectanglesTestRoomTestCase(new Rectangle(20, 2, 40, 4), new Rectangle(10, 1, 50, 5), true,
                 160, 0);
             yield return new RectanglesTestRoomTestCase(new Rectangle(20, 2, 40, 4), new Rectangle(10, 1, 0, 1), false,
+                0, -1);
+            yield return new RectanglesTestRoomTestCase(new Rectangle(20, 2, 40, 4), new Rectangle(10, 2, 10, 0), true,
                 0, -1);
             for (var x = -1; x <= 1; x++)
             for (var y = -1; y <= 1; y++)
