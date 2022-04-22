@@ -13,8 +13,8 @@ namespace Names
             var namesData = ReadData();
             Charts.ShowHeatmap(HeatmapTask.GetBirthsPerDateHeatmap(namesData));
             // Charts.ShowHistogram(HistogramSample.GetHistogramBirthsByYear(namesData));
-            Charts.ShowHistogram(HistogramTask.GetBirthsPerDayHistogram(namesData, "юрий"));
-            Charts.ShowHistogram(HistogramTask.GetBirthsPerDayHistogram(namesData, "владимир"));
+            // Charts.ShowHistogram(HistogramTask.GetBirthsPerDayHistogram(namesData, "юрий"));
+            // Charts.ShowHistogram(HistogramTask.GetBirthsPerDayHistogram(namesData, "владимир"));
             // CreativityTask.ShowYourStatistics(namesData);
             Console.WriteLine();
         }
